@@ -1,0 +1,17 @@
+#include<stdio.h>
+void recursion(int i)
+{
+    
+    if(i==11)
+    {
+        return;
+    }
+    printf("%d\n",i);
+    recursion(i+1);
+}
+int main()
+{
+int i=1;
+recursion(i);
+    return 0;
+}
